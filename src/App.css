@@ -1,0 +1,468 @@
+*{
+  font-family: 'Poppins', sans-serif;
+
+}
+.App {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+ 
+  color: white;
+}
+
+.parent-container{
+ background-image: url('/src//components/img/LEARNING4.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ant-input-password-suffix i {
+  font-size: 14px; 
+}
+
+
+.ant-input-password {
+  width: 200px; 
+  height: 30px; 
+  font-size: 14px; 
+}
+
+
+
+.ant-input-password-action {
+  height: 28px; 
+  font-size: 14px; 
+}
+input.custom-input {
+  width: 200px;
+  height: 30px;
+  font-size: 14px;
+}
+
+input.custom-input:hover {
+  border-color: #fff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+.button-login,
+.button-createAnAccount {
+  
+  background-color: transparent;
+  color: #fff; 
+  transition: background-color 0.3s, color 0.3s; 
+
+  &:hover {
+    background-color: #fff; 
+    color: #000;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); 
+  }
+}
+
+.custom-input .anticon {
+  font-size: 14px; 
+}
+.register-cont{
+  width: 400px;
+  height: 380px;
+  background-color:rgba(245, 245, 245, 0.1) ;
+  border-radius: 70px;
+  display: flex;
+  border: 1px solid transparent; 
+
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); 
+
+}
+.login-cont {
+  width: 400px;
+  height: 300px;
+  background-color: rgba(245, 245, 245, 0.1);
+  border: 1px solid transparent; 
+  border-radius: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.button-login{
+  width:80px ;
+  height: 30px;
+}
+.button-createAnAccount{
+  width: 170px;
+height: 30px;
+}
+.login-cont-insidecont > *:not(:last-child) {
+  margin-bottom: 20px; 
+}
+.login-cont-insidecont{
+  width: 200px;
+  height: 180px;
+}
+.register-cont-inside{
+  width: 200px;
+  height: 230px;
+}
+.register-cont-inside > *:not(:last-child) {
+  margin-bottom: 20px; 
+}
+.parent-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh; 
+}
+
+.left-container {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.right-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.left-container h1, .left-container h2 {
+  text-align: left;
+}
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1, h2 {
+  animation: pulse 2s infinite; 
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+h1,h2 {
+  animation: pulse 2s infinite; 
+}
+@keyframes shine {
+  0% {
+    text-shadow: 0 0 10px white;
+  }
+  50% {
+    text-shadow: 0 0 20px white, 0 0 30px white, 0 0 40px white; 
+  }
+  100% {
+    text-shadow: 0 0 10px white;
+  }
+}
+
+h1, h2 {
+  animation: shine 2s infinite; 
+}
+h1{
+  font-size: 60px;
+}
+.notes-div-conspects,
+.notes-div {
+  background-color: rgba(245, 245, 245, 0.863);
+  margin-top: 30px;
+  display: inline-block;
+  margin-bottom: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.658);
+}
+
+.notes-div-inside {
+  height: 200px;
+  margin: 25px auto; 
+
+  position: relative;
+}
+.notes-div{
+  height: 250px;
+}
+h3{
+  color: white;
+  font-size: 35px;
+ 
+}
+h4{
+  color:black;
+  font-size: 15px;
+ font-weight: 300;
+}
+.add-todo-input{
+  width: 300px;
+}
+.conspects-div{
+  width: 100vw;
+  height: 100vh;
+  
+}
+.notes-div-conspects{
+  width: 800px;
+  height: 900px;
+  background-color: rgba(245, 245, 245, 0.726);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.notes-div-inside-conspects{
+ width: 90%;
+ height: 90%;
+ 
+}
+.add-conspect-input{
+  width:800px;
+
+}
+.calendar-container{
+display: flex;
+width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
+.ContactMe,
+.homepage,
+.conspects {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+ background-image: url('/src/components/img/lol3.avif');
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.calendar-left-div{
+  width: 20%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+
+}
+
+.menu-left,
+.ContactMe-left,
+.menu-left-csnects {
+  width: 15%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+} 
+.ContactMe-right,
+.content-right-homepage,
+.content-right-conspects {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  margin-left: 15%;
+
+  }
+  
+.calendar-right-div {
+  width: 70%;
+  flex: 1;
+margin-left: 20%
+}
+.conspects-p{
+  font-size: 30px;
+  color:white
+}
+.conspects-adding-div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  
+}
+
+.icons-container {
+  margin-left: 10px;
+}
+.PlusOutlined{
+margin-right: 10px;
+
+}
+.searchInput{
+  width: 220px;
+  border-radius: 25px;
+height: 40px;
+background-color: rgba(255, 255, 255, 0.925); 
+border: none; 
+outline: none; 
+color: white; 
+border-radius: 25px;
+padding: 0 15px; 
+
+}
+.searchInput .ant-input {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+
+.searchInput:hover{
+  border: none; 
+  box-shadow: none; 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+.searchInput:focus {
+  border: none;
+  box-shadow: none;
+}
+.searchDiv {
+  display: flex;
+  align-items: center; 
+}
+
+.menu2-div{
+  margin-top: 10%;
+  margin-left: 15%;
+height: 95%;
+width: 45%;
+background-color:rgba(100, 100, 100, 0.267);
+border-radius:40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.menu2-div-inside {
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.menu-icon:hover {
+  filter: brightness(80%); 
+}
+
+.adding-searching-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-input:hover,
+.ant-input:focus,
+.ant-input-focused,
+.ant-input-affix-wrapper:hover,
+.ant-input-affix-wrapper:focus,
+.ant-input-affix-wrapper-focused {
+  border-color: initial;
+  box-shadow: none;
+}
+.add-conspect-input,
+.add-todo-input{
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.918); 
+border: none; 
+outline: none; 
+color: white; 
+border-radius: 25px;
+padding: 0 15px;
+}
+.add-conspect-input .ant-input,
+.add-todo-input .ant-input {
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.add-conspect-input:hover,
+.add-todo-input:hover{
+  border: none; 
+  box-shadow: none; 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+.add-conspect-input:focus,
+.add-todo-input:focus {
+  border: none; 
+  box-shadow: none; 
+}
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px; 
+}
+
+.notes-div {
+  flex: 1 0 calc(33.333% - 30px); 
+  max-width: calc(33.333% - 30px);
+}
+.switch-activeDone.ant-switch-checked {
+  background-color: #ffffff !important; 
+  border-color: transparent !important; 
+  color: #ffffff !important; 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8) !important; 
+}
+
+.switch-activeDone.ant-switch-checked:hover {
+  background-color: #f2f2f2 !important; 
+  color: #6B5DB0 !important; 
+}
+
+.switch-activeDone {
+  background-color: rgba(107, 93, 176, 0.349) !important; 
+  color: rgba(107, 93, 176, 0.349) !important; 
+}
+
+.switch-activeDone:hover {
+  background-color: rgba(107, 93, 176, 0.6) !important;
+  color: rgba(255, 255, 255, 0.8) !important; 
+}
+
+.editAndDeleteDiv {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.notes-div.done {
+  opacity: 0.1;
+}
+
+h5,h6{
+  color: #000;
+}
+.ContactMe-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contactMe-main{
+    width: 50%;
+  height: 50%;
+ background-color:rgba(128, 128, 128, 0.226);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+.name-p{
+font-size: 25px;
+}
