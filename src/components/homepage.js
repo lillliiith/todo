@@ -141,6 +141,7 @@ export default function Homepage() {
               value={todo || voiceRecognitionResult}
               placeholder="add todo"
               onChange={(e) => setTodo(e.target.value)}
+              style={{ color: "black" }} 
             />
             {isEditingMode ? (
               <>
@@ -201,6 +202,7 @@ export default function Homepage() {
                     style={{
                       textDecoration: todo.checked ? "line-through" : "none",
                       opacity: todo.status === "done" ? 0.3 : 1,
+                     
                     }}
                   >
                     {todo.todo}
